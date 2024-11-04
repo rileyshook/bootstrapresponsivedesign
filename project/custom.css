@@ -1,0 +1,56 @@
+/* Hero Section Styling */
+.hero-image {
+    background-image: url("assets/heroimage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image .container h1, .hero-image .container p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text readability */
+}
+
+/* Consistent Image Styling for Attraction Sections */
+#tower-bridge img, #tower-of-london img, #big-ben img {
+    width: 100%;
+    max-width: 600px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Travel Tips Section Content Box */
+#travel-tips .content-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background with 60% opacity */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Centering the title and introductory text */
+#travel-tips .content-box .text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Left-aligning the bullet points */
+#travel-tips .content-box ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
